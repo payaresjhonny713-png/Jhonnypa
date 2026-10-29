@@ -1,0 +1,203 @@
+
+/*
+
+1.El orden de definicion es y de forma alfabetica:
+
+1. Etiquetas html
+2. Identificadores
+3. Clases
+
+2. Los atributos tambien se ordenan alfabeticamente.
+
+3. En el body siempre se debe definir un tamaño de fuente.
+
+
+*/
+
+@font-face{
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/Montserrat.ttf) format ("truetype");
+}
+
+*
+{
+	border:0;
+	margin:0;
+	padding: 0;
+}
+#banner
+{
+	background: #16dded;
+	height: 240px;
+	width:920px;
+	padding: 40px;
+}
+#banner #promo1 h1
+{
+	font-size: 36px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	position:absolute;
+}
+
+
+body 
+{
+	background: url(../img/descarga\ \(32\).jpg) no-repeat center center fixed;
+	font-family: "Montserrat", Helvetica, Verdana;
+	font-size: 12px;
+	background-size: cover;
+
+
+}
+#contenedor
+{
+	width: 1000px;
+	height: auto;
+	margin:0 auto;
+}
+
+footer
+{
+	background: black;
+	height: 50px;
+	width: 1000px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+
+}
+
+header
+{
+	height: 145px;
+	width: 1000px;
+}
+
+header h1
+{
+font-size: 30px;
+margin: 60px 0 0 40px;
+position: absolute;
+color: Black;
+
+}
+
+nav ul li 
+{
+	display: inline-block;
+	font-size: 16px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 60px;
+}
+
+nav ul li a 
+{
+	text-decoration: none;
+	color: black;
+}
+nav ul li a:hover
+{
+	color: blue;
+	text-shadow: 2px 2px 6px #809e13;
+}
+#promo1 a
+{
+	background: #df2391;
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	border-radius: 10px;
+	padding-top: 15px;
+	margin-top: 160px;
+}
+#promo1 a:hover
+{
+	background: #00ff95;
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	border-radius: 10px;
+	padding-top: 15px;
+	margin-top: 160px;
+}
+#promo1 a:active
+{
+	background: #df2391;
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	border-radius: 20px;
+	padding-top: 15px;
+	margin-top: 160px;
+}
+#promo1 img
+{
+	position: relative;
+	float: right;
+	margin-right: 90px;
+
+}
+
+#servicios
+{
+	margin: 20px 0;
+	height: 350px;
+	width: 1000px;
+	background: #df2391;
+}
+
+#servicio1, #servicio2, #servicio3
+{
+	
+	display: inline-block;
+	vertical-align: top;
+	width: 290px;
+	height: 285px;
+	padding: 20px;
+	text-align: justify;
+}
+#icono1, #icono2, #icono3
+{
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	background: black;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 7px 2px 10px #000; 
+}
+#icono1
+{
+		background: url(../img/atardecer.jpg) center;
+
+}
+#icono2
+{
+		background: url(../img/pajaros.jpg) center;
+
+}
+#icono3
+{
+		background: url(../img/mariposa.jpg) center;
+
+}
+
+
